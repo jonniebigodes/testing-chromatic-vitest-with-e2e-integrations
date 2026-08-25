@@ -1,4 +1,4 @@
-name: "Chromatic"
+name: "Chromatic Cypress"
 
 on: push
 
@@ -53,7 +53,7 @@ jobs:
           name: test-results
           path: ./cypress/downloads
       - name: Run Chromatic
-        uses: chromaui/action@latest
+        uses: chromaui/action-canary@v18.5.1--canary.1465.32835334792.0
         with:
           # ⚠️ Enable Cypress
           cypress: true
