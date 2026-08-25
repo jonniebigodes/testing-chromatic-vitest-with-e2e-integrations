@@ -17,7 +17,7 @@ describe("BasicAnimation", async () => {
     expect(screen.container.firstChild).toBeTruthy();
     await takeSnapshot("BasicAnimation - Default props");
   });
-  /*  
+
   test("Unstable - renders with random tickMs and widthMaxPx", async () => {
     const screen = await render(
       <BasicAnimation
@@ -28,7 +28,7 @@ describe("BasicAnimation", async () => {
     expect(screen.container.firstChild).toBeTruthy();
     await takeSnapshot("BasicAnimation - Unstable rest with random options");
   });
- test("Unstable - Parameterized test with delay", async () => {
+  test("Unstable - Parameterized test with delay", async () => {
     const screen = await render(
       <BasicAnimation
         tickMs={Math.floor(Math.random() * 4500) + 500}
@@ -45,5 +45,5 @@ describe("BasicAnimation", async () => {
     await takeSnapshot(
       "BasicAnimation - Test with parameterized delay and random options - After delay",
     );
-  }); */
+  });
 });

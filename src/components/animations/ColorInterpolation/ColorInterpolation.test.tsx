@@ -23,7 +23,7 @@ describe("ColorInterpolation", async () => {
     expect(screen.container.firstChild).toBeTruthy();
     await takeSnapshot("ColorInterpolation - SlowerSweep props");
   });
-  /* 
+
   test("Unstable - renders with random durationMs", async () => {
     const screen = await render(
       <ColorInterpolation
@@ -35,7 +35,7 @@ describe("ColorInterpolation", async () => {
       "ColorInterpolation - Unstable rest with random options",
     );
   });
-   test("Unstable - Parameterized test with delay", async () => {
+  test("Unstable - Parameterized test with delay", async () => {
     const screen = await render(
       <ColorInterpolation
         durationMs={Math.floor(Math.random() * 12000) + 800}
@@ -51,5 +51,5 @@ describe("ColorInterpolation", async () => {
     await takeSnapshot(
       "ColorInterpolation - Test with parameterized delay and random options - After delay",
     );
-  }); */
+  });
 });

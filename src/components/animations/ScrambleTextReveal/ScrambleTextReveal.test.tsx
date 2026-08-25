@@ -29,7 +29,7 @@ describe("ScrambleTextReveal", async () => {
     expect(screen.container.firstChild).toBeTruthy();
     await takeSnapshot("ScrambleTextReveal - StatusLabels props");
   });
-  /* 
+
   test("Unstable - renders with random words and timing", async () => {
     const SCRAMBLE_POOL = [
       "Alpha",
@@ -91,5 +91,5 @@ describe("ScrambleTextReveal", async () => {
     await takeSnapshot(
       "ScrambleTextReveal - Test with parameterized delay and random options - After delay",
     );
-  }); */
+  });
 });
