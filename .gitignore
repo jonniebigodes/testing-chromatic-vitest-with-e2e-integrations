@@ -34,3 +34,6 @@ dist-ssr
 storybook-static
 .vitest/
 .vitest-attachments/
+
+cypress/downloads
+cypress/screenshots
