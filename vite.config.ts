@@ -50,7 +50,7 @@ export default defineConfig({
               verbose: true,
             },
             turboSnap: true,
-            tags: ["Unstable"],
+            //tags: ["Unstable"],
           }),
         ],
         test: {
