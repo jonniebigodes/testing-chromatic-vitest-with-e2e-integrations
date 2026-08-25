@@ -23,7 +23,7 @@ describe("SpringOscillator", async () => {
     expect(screen.container.firstChild).toBeTruthy();
     await takeSnapshot("SpringOscillator - WiderSpan props");
   });
-  /* 
+
   test("Unstable - renders with random spanPx", async () => {
     const screen = await render(
       <SpringOscillator spanPx={Math.floor(Math.random() * 100) + 24} />,
@@ -45,5 +45,5 @@ describe("SpringOscillator", async () => {
     await takeSnapshot(
       "SpringOscillator - Test with parameterized delay and random options - After delay",
     );
-  }); */
+  });
 });

@@ -24,7 +24,7 @@ describe("LoadingRipples", async () => {
     expect(screen.container.firstChild).toBeTruthy();
     await takeSnapshot("LoadingRipples - WarmTone props");
   });
-  /* 
+
   test("Unstable - renders with random ringCount, cycleMs, and color", async () => {
     const screen = await render(
       <LoadingRipples
@@ -36,9 +36,9 @@ describe("LoadingRipples", async () => {
       />,
     );
     expect(screen.container.firstChild).toBeTruthy();
-    // await takeSnapshot("LoadingRipples - Unstable rest with random options");
+    await takeSnapshot("LoadingRipples - Unstable rest with random options");
   });
-   test("Unstable - Parameterized test with delay", async () => {
+  test("Unstable - Parameterized test with delay", async () => {
     const screen = await render(
       <LoadingRipples
         ringCount={Math.floor(Math.random() * 6) + 2}
@@ -58,5 +58,5 @@ describe("LoadingRipples", async () => {
     await takeSnapshot(
       "LoadingRipples - Test with parameterized delay and random options - After delay",
     );
-  }); */
+  });
 });
