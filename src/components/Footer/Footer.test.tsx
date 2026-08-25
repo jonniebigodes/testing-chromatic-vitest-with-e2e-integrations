@@ -1,5 +1,5 @@
 import { describe, test, expect, vi } from "vitest";
-import { render } from "@/test-setup";
+import { render } from "../../test-setup";
 import Footer from "./Footer";
 
 import { configure, takeSnapshot } from "@chromatic-com/vitest";

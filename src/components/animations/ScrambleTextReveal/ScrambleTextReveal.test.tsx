@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 
-import { render } from "@/test-setup";
+import { render } from "../../../test-setup";
 import { ScrambleTextReveal } from "./ScrambleTextReveal";
 
 import { configure, takeSnapshot } from "@chromatic-com/vitest";

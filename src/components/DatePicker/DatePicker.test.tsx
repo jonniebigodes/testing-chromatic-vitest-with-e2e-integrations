@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { page } from "vitest/browser";
-import { render } from "@/test-setup";
+import { render } from "../../test-setup";
 import DatePicker from "./DatePicker";
 import { configure, takeSnapshot } from "@chromatic-com/vitest";
 

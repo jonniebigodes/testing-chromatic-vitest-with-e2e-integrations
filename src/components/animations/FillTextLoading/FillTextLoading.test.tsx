@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { render } from "@/test-setup";
+import { render } from "../../../test-setup";
 import { FillTextLoading } from "./FillTextLoading";
 
 import { configure, takeSnapshot } from "@chromatic-com/vitest";

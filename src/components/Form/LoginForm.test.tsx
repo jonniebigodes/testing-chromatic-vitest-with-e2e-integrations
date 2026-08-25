@@ -1,10 +1,10 @@
 import { describe, test, expect, vi } from "vitest";
 
-import { render } from "@/test-setup";
+import { render } from "../../test-setup";
 import Form from "./Form";
 import Label from "./Label";
 import Input from "./Input";
-import Button from "@components/Button/Button";
+import Button from "../Button/Button";
 
 import { configure, takeSnapshot } from "@chromatic-com/vitest";
 

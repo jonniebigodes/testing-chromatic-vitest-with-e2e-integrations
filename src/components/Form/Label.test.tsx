@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { page } from "vitest/browser";
-import { render } from "@/test-setup";
+import { render } from "../../test-setup";
 import Label from "./Label";
 
 import { configure, takeSnapshot } from "@chromatic-com/vitest";

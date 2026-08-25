@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import { page } from "vitest/browser";
-import { render } from "@/test-setup";
+import { render } from "../../test-setup";
 import Form from "./Form";
 import Label from "./Label";
 import Input from "./Input";

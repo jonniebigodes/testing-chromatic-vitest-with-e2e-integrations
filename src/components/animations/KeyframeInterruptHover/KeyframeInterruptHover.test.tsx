@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 
-import { render } from "@/test-setup";
+import { render } from "../../../test-setup";
 import { KeyframeInterruptHover } from "./KeyframeInterruptHover";
 
 import { configure, takeSnapshot } from "@chromatic-com/vitest";

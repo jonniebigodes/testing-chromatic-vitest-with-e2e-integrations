@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { render } from "@/test-setup";
+import { render } from "../../../test-setup";
 import { ParallaxLayers } from "./ParallaxLayers";
 
 import { configure, takeSnapshot } from "@chromatic-com/vitest";

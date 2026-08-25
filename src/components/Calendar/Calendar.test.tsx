@@ -1,7 +1,7 @@
 import { describe, test, expect } from "vitest";
 
 import { CalendarDate } from "@internationalized/date";
-import { render } from "@/test-setup";
+import { render } from "../../test-setup";
 import Calendar from "./Calendar";
 import { configure, takeSnapshot } from "@chromatic-com/vitest";
 
