@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic:tests": "vitest run --project chromatic"
+    "chromatic:tests": "vitest run --project chromatic",
+    "cypress:chromatic": "ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 npx cypress run"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -19,27 +20,29 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@chromatic-com/cypress": "^0.13.2",
     "@chromatic-com/playwright": "^0.14.12",
+    "@chromatic-com/storybook": "latest",
     "@chromatic-com/vitest": "^0.1.9",
     "@playwright/test": "^1.62.1",
+    "@storybook/addon-a11y": "^10.5.10",
+    "@storybook/addon-docs": "^10.5.10",
+    "@storybook/addon-vitest": "^10.5.10",
+    "@storybook/react-vite": "^10.5.10",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
+    "@vitest/browser-playwright": "latest",
+    "@vitest/coverage-v8": "latest",
     "chromatic": "^18.5.1--canary.1465.32835334792.0",
+    "cypress": "^15.21.0",
     "oxlint": "^1.79.0",
+    "playwright": "latest",
+    "storybook": "^10.5.10",
     "typescript": "~6.0.2",
     "vite": "^8.2.2",
-    "vitest-browser-react": "^2.2.0",
-    "storybook": "^10.5.10",
-    "@storybook/react-vite": "^10.5.10",
-    "@chromatic-com/storybook": "latest",
-    "@storybook/addon-vitest": "^10.5.10",
-    "@storybook/addon-a11y": "^10.5.10",
-    "@storybook/addon-docs": "^10.5.10",
     "vitest": "latest",
-    "playwright": "latest",
-    "@vitest/browser-playwright": "latest",
-    "@vitest/coverage-v8": "latest"
+    "vitest-browser-react": "^2.2.0"
   }
 }
